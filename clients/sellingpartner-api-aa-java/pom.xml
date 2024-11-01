@@ -122,4 +122,12 @@
             <version>30.1-jre</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/nomuwdev/selling-partner-api-models</url>
+        </repository>
+    </distributionManagement>
 </project>
